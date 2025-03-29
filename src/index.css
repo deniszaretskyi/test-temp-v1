@@ -1,0 +1,134 @@
+:root {
+  font-size: 62.5%;
+
+  /* blue */
+  --blue-1: #fcfdfe;
+  --blue-2: #f7f9fe;
+  --blue-3: #eef2fb;
+  --blue-4: #e3eafc;
+  --blue-5: #d5dffa;
+  --blue-6: #c5d1f4;
+  --blue-7: #b0bfeb;
+  --blue-8: #93a7e0;
+  --blue-9: #6c88e5;
+  --blue-10: #617cd5;
+  --blue-11: #5068bd;
+  --blue-12: #253056;
+
+  --blue-a1: #0055aa03;
+  --blue-a2: #0040e008;
+  --blue-a3: #003cc311;
+  --blue-a4: #0040e41c;
+  --blue-a5: #003de12a;
+  --blue-a6: #0035cf3a;
+  --blue-a7: #0031bf4f;
+  --blue-a8: #0030b66c;
+  --blue-a9: #0031d293;
+  --blue-a10: #002cbc9e;
+  --blue-a11: #00239faf;
+  --blue-a12: #000d39da;
+
+  --blue-contrast: #fff;
+  --blue-surface: #f5f8fecc;
+  --blue-indicator: #6c88e5;
+  --blue-track: #6c88e5;
+
+  /* GRAY */
+  --gray-1: #fcfcfd;
+  --gray-2: #f9f9fb;
+  --gray-3: #eff0f3;
+  --gray-4: #e7e8ec;
+  --gray-5: #e0e1e6;
+  --gray-6: #d8d9e0;
+  --gray-7: #cdced7;
+  --gray-8: #b9bbc6;
+  --gray-9: #8b8d98;
+  --gray-10: #80828d;
+  --gray-11: #62636c;
+  --gray-12: #1e1f24;
+
+  --gray-a1: #00005503;
+  --gray-a2: #00005506;
+  --gray-a3: #00104010;
+  --gray-a4: #000b3618;
+  --gray-a5: #0009321f;
+  --gray-a6: #00073527;
+  --gray-a7: #00063332;
+  --gray-a8: #00083046;
+  --gray-a9: #00051d74;
+  --gray-a10: #00051b7f;
+  --gray-a11: #0002119d;
+  --gray-a12: #000107e1;
+
+  --white: #ffffff;
+  --gray-surface: #ffffffcc;
+  --gray-indicator: #8b8d98;
+  --gray-track: #8b8d98;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+}
+h2 {
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+}
+h3 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+p {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.divider {
+  background-color: var(--blue-9);
+  width: 22rem;
+  height: 1rem;
+  border-radius: 8px;
+  margin: 30px auto;
+}
+
+button {
+  font-size: 2rem;
+  border: 3px solid var(--blue-11);
+
+  padding: 1.5rem 3rem;
+  color: var(--white);
+}
+button:hover {
+  background-color: var(--blue-12);
+  transform: scale(1);
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
